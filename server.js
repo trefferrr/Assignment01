@@ -14,7 +14,7 @@ let animals = [
 ];
 
 app.use(bodyParser.json());
-app.use(cors()); // Enable CORS for all routes
+app.use(cors()); 
 
 // GET all animals
 app.get("/animals", (req, res) => {
